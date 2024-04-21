@@ -104,3 +104,19 @@ footer {
 footer a img {
     vertical-align: middle; /* Aligns the icon with the text */
 }
+
+.data-model {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4; /* Light gray background, you can choose your color */
+    margin: 20px 0;
+}
+
+.data-model h2 {
+    margin-bottom: 15px;
+}
+
+.data-model img {
+    max-width: 100%;
+    height: auto;
+}
