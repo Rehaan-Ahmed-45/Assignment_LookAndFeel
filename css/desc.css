@@ -54,11 +54,15 @@ tr:nth-child(even) {
 }
 
 .button-container {
-    margin-top: 60px;
+    padding: 10px 20px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
     text-align: center;
 }
 
-button {
+/*button {
     background-color: #CFC493;
     color: #006747;
     border: none;
@@ -66,7 +70,7 @@ button {
     text-transform: uppercase;
     cursor: pointer;
     transition: background-color 0.3s ease;
-}
+}*/
 
 button:hover {
     background-color: #b3a179;
