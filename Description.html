@@ -4,18 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Choose Your Vaccine</title>
-    <link rel="stylesheet" href="css/desc.css">
+    <link rel="stylesheet" href="css/desc.css"> <!-- Link to external CSS file -->
 </head>
 <body>
+    <!-- Top Left Image linked to home page -->
     <a href="index.html" class="home-link">
         <img src="https://i.pinimg.com/564x/db/c2/41/dbc241cd06bd3831cb6709bcf8860d40.jpg" alt="Top Left Image" class="top-left">
     </a>
-    <h1>Compare Vaccines</h1>
-    <p>Review the information below to help you choose the best vaccine option for you:</p>
+
+    <h1>Compare Vaccines</h1> <!-- Main heading -->
+    <p>Review the information below to help you choose the best vaccine option for you:</p> <!-- Introduction paragraph -->
+
     <div class="table-container">
+        <!-- Container for the comparison table -->
         <table>
             <thead>
                 <tr>
+                    <!-- Table headings -->
                     <th>Vaccine Name</th>
                     <th>Price(in $)</th>
                     <th>Number of People Used</th>
@@ -25,7 +30,9 @@
                 </tr>
             </thead>
             <tbody>
+                <!-- Table rows -->
                 <tr>
+                    <!-- Vaccine Pfizer -->
                     <td><a href="https://www.pfizer.com/products/product-detail/pfizer-biontech-covid-19-vaccine" class="link-no-style">Pfizer</a></td>
                     <td>20</td>
                     <td>200M</td>
@@ -34,6 +41,7 @@
                     <td>6</td>
                 </tr>
                 <tr>
+                    <!-- Vaccine Moderna -->
                     <td><a href="https://www.modernatx.com/en-US/about-us/our-story" class="link-no-style">Moderna</a></td>
                     <td>25</td>
                     <td>150M</td>
@@ -42,6 +50,7 @@
                     <td>8</td>
                 </tr>
                 <tr>
+                    <!-- Vaccine AstraZeneca -->
                     <td><a href="https://www.precisionvaccinations.com/vaccines/vaxzevria-covid-19-vaccine" class="link-no-style">AstraZeneca</a></td>
                     <td>15</td>
                     <td>100M</td>
@@ -54,10 +63,12 @@
     </div>
 
     <div class="button-container">
+        <!-- Container for the button -->
+        <!-- Button to proceed to registration -->
         <button onclick="location.href='registration.html'">Proceed to Registration</button>
     </div>
 
-    <img src="img/vaccine.jpg" alt="Bottom Right Image" class="bottom-right">
+    <img src="img/vaccine.jpg" alt="Bottom Right Image" class="bottom-right"> <!-- Bottom Right Image -->
 
 </body>
 </html>
