@@ -1,78 +1,70 @@
-/* Reset default styles and set global styles */
 body {
-    position: relative; /* Set position to relative */
-    padding-top: 10px; /* Add padding to the top */
-    font-family: Arial, sans-serif; /* Set font family */
-    margin: 40px; /* Set margin */
-    background-color: #f0f4f8; /* Set background color */
+    position: relative;
+    padding-top: 10px;
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #f0f4f8;
 }
 
-/* Styles for the USF Health logo */
 #usfLogo {
-    position: absolute; /* Set position to absolute */
-    top: 20px; /* Set top position */
-    right: 20px; /* Set right position */
-    width: 200px; /* Set width */
-    mix-blend-mode: multiply; /* Apply mix blend mode */
-    z-index: 10; /* Set z-index */
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 200px;
+    mix-blend-mode: multiply;
+    z-index: 10;
 }
 
-/* Styles for the main heading */
 h1 {
-    position: relative; /* Set position to relative */
-    left: 20px; /* Set left position */
-    color: #006747; /* Set text color */
-    margin-bottom: 20px; /* Add margin to the bottom */
+    position: relative;
+    left: 20px;
+    color: #006747;
+    margin-bottom: 20px;
 }
 
-/* Styles for the form */
 form {
-    background: #ffffff; /* Set background color */
-    padding: 20px; /* Set padding */
-    border-radius: 8px; /* Set border radius */
-    box-shadow: 0 0 15px rgba(0,0,0,0.1); /* Apply box shadow */
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
 
-/* Styles for labels */
 label {
-    margin-top: 10px; /* Add margin to the top */
-    display: block; /* Display as block */
-    color: #333333; /* Set text color */
-    font-weight: bold; /* Set font weight */
+    margin-top: 10px;
+    display: block;
+    color: #333333;
+    font-weight: bold;
 }
 
-/* Styles for input and select elements */
 input, select {
-    width: 100%; /* Set width to 100% */
-    padding: 8px; /* Set padding */
-    margin-top: 5px; /* Add margin to the top */
-    border: 1px solid #cccccc; /* Set border */
-    border-radius: 4px; /* Set border radius */
-    background: #ffffff; /* Set background color */
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    background: #ffffff;
 }
 
-/* Styles for buttons */
 button {
-    background-color: #006747; /* Set background color */
-    color: white; /* Set text color */
-    padding: 10px 20px; /* Set padding */
-    border: none; /* Remove border */
-    border-radius: 4px; /* Set border radius */
-    cursor: pointer; /* Set cursor */
-    margin-top: 20px; /* Add margin to the top */
+    background-color: #006747;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
 }
 
-    button:hover {
-        background-color: #004f35; /* Change background color on hover */
-    }
+button:hover {
+    background-color: #004f35;
+}
 
-/* Styles for the result section */
 #result {
-    margin-top: 20px; /* Add margin to the top */
-    padding: 20px; /* Set padding */
-    background-color: #e6f5f3; /* Set background color */
-    border: 1px solid #b2d8d8; /* Set border */
-    color: #006747; /* Set text color */
-    border-radius: 4px; /* Set border radius */
-    display: none; /* Hide by default */
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #e6f5f3;
+    border: 1px solid #b2d8d8;
+    color: #006747;
+    border-radius: 4px;
+    display: none;
 }
