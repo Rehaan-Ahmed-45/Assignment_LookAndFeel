@@ -6,6 +6,15 @@ body {
     color: #006747;
 }
 
+.link-no-style {
+    color: inherit; /* Ensures the link uses the same color as other text in the table */
+    text-decoration: none; /* Removes underline from link */
+}
+
+.link-no-style:hover {
+    text-decoration: underline; /* Adds underline when hovered */
+    cursor: pointer; /* Changes the cursor to a pointer to indicate it's clickable */
+}
 .top-left {
     position: absolute;
     top: 0;
