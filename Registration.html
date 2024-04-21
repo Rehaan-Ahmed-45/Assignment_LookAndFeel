@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vaccine Registration</title>
-    <link rel="stylesheet" href="css/styles.css"> 
+    <link rel="stylesheet" href="css/styles.css"> <!-- Link to external CSS for styling -->
 </head>
 <body>
     <a href="index.html" class="home-link">
-    <img src="img/sc.png" alt="USF Health Logo" id="usfLogo">
-</a>
-    <h1>COVID Vaccine Registration</h1>
-    <form id="registrationForm">
+        <img src="img/sc.png" alt="USF Health Logo" id="usfLogo"> <!-- Link back to homepage with institution logo -->
+    </a>
+    <h1>COVID Vaccine Registration</h1> <!-- Main heading for the registration form -->
+    <form id="registrationForm"> <!-- Form for vaccine registration -->
         <label for="firstName">First Name:</label>
         <input type="text" id="firstName" name="firstName" pattern="[A-Za-z\s]+" title="First name should only contain alphabets and spaces." required onblur="validateInput(this, 'lastName')" placeholder="Enter first name">
 
@@ -25,24 +25,24 @@
         <input type="tel" id="phone" name="phone" pattern="(\+\d{2})?\d{10}" title="Enter a 10-digit phone number or a country code followed by a 10-digit number." maxlength="13" required onblur="validateInput(this, 'address')" placeholder="e.g., +XX1234567890 or 1234567890">
 
         <label for="address">Address:</label>
-        <input type="text" id="address" name="address" required onblur="validateInput(this, 'vaccineBrand')">
+        <input type="text" id="address" name="address" required onblur="validateInput(this, 'vaccineBrand')"> <!-- Field for address, uses generic validation and formatting -->
 
         <label for="vaccineBrand">Vaccine Brand:</label>
         <select id="vaccineBrand" name="vaccineBrand" required onblur="validateInput(this, 'timeSlot')">
-            <option value="">Select a brand</option>
+            <option value="">Select a brand</option> <!-- Dropdown for selecting vaccine brand -->
             <option value="Pfizer">Pfizer</option>
             <option value="Moderna">Moderna</option>
             <option value="AstraZeneca">AstraZeneca</option>
         </select>
 
         <label for="timeSlot">Time Slot:</label>
-        <input type="time" id="timeSlot" name="timeSlot" required onblur="validateInput(this, 'registerButton')">
+        <input type="time" id="timeSlot" name="timeSlot" required onblur="validateInput(this, 'registerButton')"> <!-- Input for selecting time slot -->
 
-        <button type="button" id="registerButton" onclick="validateForm()">Register</button>
+        <button type="button" id="registerButton" onclick="validateForm()">Register</button> <!-- Button to submit the form, triggers form validation -->
     </form>
 
-    <div id="result"></div>
+    <div id="result"></div> <!-- Placeholder for displaying result or messages post form submission -->
 
-    <script src="js/script.js"></script> 
+    <script src="js/script.js"></script> <!-- Link to JavaScript file for form validation and behavior -->
 </body>
 </html>
