@@ -1,113 +1,98 @@
-/* General styling for the body */
 body {
-    font-family: 'Arial', sans-serif; /* Set font family */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
-    background-color: #f0f4f8; /* Set background color */
-    color: #006747; /* Set text color */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+    color: #006747;
 }
 
-/* Styling for links with no underline */
 .link-no-style {
-    color: inherit; /* Use the same color as other text */
-    text-decoration: none; /* Remove underline */
+    color: inherit;
+    text-decoration: none;
 }
 
-    /* Hover effect for links */
-    .link-no-style:hover {
-        text-decoration: underline; /* Add underline on hover */
-        cursor: pointer; /* Change cursor to indicate clickable */
-    }
+.link-no-style:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
 
-/* Positioning and sizing for top-left image */
 .top-left {
-    position: absolute; /* Position absolute */
-    top: 0; /* Align to top */
-    left: 0; /* Align to left */
-    width: 150px; /* Set width */
-    height: auto; /* Auto height to maintain aspect ratio */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: auto;
 }
 
-/* Center align heading and paragraphs */
 h1, p {
-    text-align: center; /* Align center */
+    text-align: center;
 }
 
-/* Flexbox setup for table container */
 .table-container {
-    display: flex; /* Use flexbox */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    height: 30vh; /* Set height */
-    margin-top: 10vh; /* Set top margin */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    margin-top: 10vh;
 }
 
-/* Table styles */
 table {
-    margin-left: 60px; /* Set left margin */
-    margin-right: 30px; /* Set right margin */
-    width: 90%; /* Set width */
-    border-collapse: collapse; /* Collapse borders */
-    margin-top: 20px; /* Set top margin */
+    margin-left: 60px;
+    margin-right: 30px;
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 20px;
 }
 
-/* Styling for table headers */
 th {
-    background-color: #006747; /* Set background color */
-    color: #FFFFFF; /* Set text color */
-    padding: 15px; /* Set padding */
+    background-color: #006747;
+    color: #FFFFFF;
+    padding: 15px;
 }
 
-/* Styling for table cells */
 td {
-    padding: 15px; /* Set padding */
-    text-align: center; /* Align center */
-    border: 1px solid #CFC493; /* Set border */
-    background-color: #FFFFFF; /* Set background color */
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #CFC493;
+    background-color: #FFFFFF;
 }
 
-/* Alternate row colors in the table */
 tr:nth-child(even) {
-    background-color: #f2f2f2; /* Set background color for even rows */
+    background-color: #f2f2f2;
 }
 
-/* Button container styles */
 .button-container {
-    padding: 10px 20px; /* Set padding */
-    margin-top: 30px; /* Set top margin */
-    text-transform: uppercase; /* Convert text to uppercase */
-    cursor: pointer; /* Set cursor */
-    transition: background-color 0.3s ease; /* Add transition effect */
-    text-align: center; /* Align center */
+    padding: 10px 20px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
 }
 
-/* Styling for hover effect on buttons */
 button:hover {
-    background-color: #b3a179; /* Change background color on hover */
+    background-color: #b3a179;
 }
 
-/* Positioning and sizing for bottom-right image */
 .bottom-right {
-    position: absolute; /* Position absolute */
-    bottom: 0; /* Align to bottom */
-    left: 25; /* Set left position */
-    right: 0; /* Align to right */
-    width: 250px; /* Set width */
-    height: auto; /* Auto height to maintain aspect ratio */
+    position: absolute;
+    bottom: 0;
+    left: 25;
+    right: 0;
+    width: 250px;
+    height: auto;
 }
 
-/* Footer styles */
 footer {
-    background-color: #006747; /* Set background color */
-    color: #FFFFFF; /* Set text color */
-    text-align: center; /* Align center */
-    padding: 10px; /* Set padding */
-    position: fixed; /* Position fixed */
-    bottom: 0; /* Align to bottom */
-    width: 100%; /* Set width */
+    background-color: #006747;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
-/* Ensure content doesn't overlap with fixed footer */
 body {
-    margin-bottom: 50px; /* Set bottom margin to prevent overlap */
+    margin-bottom: 50px;
 }
