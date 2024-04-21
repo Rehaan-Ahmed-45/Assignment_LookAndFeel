@@ -2,14 +2,16 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #FFFFFF;
+    background-color: #CFC493;
     color: #006747;
-    background-image: url('https://img.freepik.com/free-photo/coronavirus-vaccine-treatment-background-with-blank-space_53876-102663.jpg?t=st=1713726907~exp=1713730507~hmac=7b46bada222350bfd48acaa424b4dbb1e1fa2687fd478e1c4978e69e4c143d5d&w=900');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: right;
-    position: relative;
+}
+
+.top-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;  /* Adjust the size as needed */
+    height: auto;
 }
 
 
@@ -29,7 +31,7 @@ h1, p {
 table {
     margin-left: 60px;
     margin-right: 30px;
-    width: 80%;
+    width: 90%;
     border-collapse: collapse;
     margin-top: 20px;
 }
@@ -69,6 +71,14 @@ button {
 button:hover {
     background-color: #b3a179;
 }
+.bottom-right {
+    position: absolute;
+    bottom: 0;
+    left: 25;
+    right: 0;
+    width: 250px; 
+    height: auto;
+}
 
 footer {
     background-color: #006747;
@@ -80,7 +90,7 @@ footer {
     width: 100%;
 }
 
-/* Ensures that the footer does not overlap the content */
+
 body {
-    margin-bottom: 50px; /* Adjust this value based on the footer height */
+    margin-bottom: 50px; 
 }
