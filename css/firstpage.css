@@ -1,17 +1,19 @@
+/* Reset default styles and set global styles */
 body, html {
     margin: 0;
     padding: 0;
     height: 100%;
     font-family: 'Arial', sans-serif;
     text-align: center;
+    /* Background image for the entire page */
     background-image: url('https://chappellroberts.com/wp-content/uploads/2022/05/USF-Health-Social.gif');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center -100px;
+    background-position: center -100px; /* Adjust background position as needed */
 }
 
+/* Styles for the site header */
 .site-header {
-    
     background-color: #ffffff;
     padding: 10px 20px;
     display: flex;
@@ -20,6 +22,7 @@ body, html {
     border-top: 4px solid #000000;
 }
 
+/* Styles for the site navigation */
 .site-nav {
     flex-grow: 1;
     display: flex;
@@ -28,25 +31,27 @@ body, html {
     margin-left: 20px;
 }
 
-    .site-nav a {
-        color: #000000;
-        text-decoration: none;
-        padding: 10px 15px;
-        margin: 0 10px;
-        font-weight: bold;
-        transition: background-color 0.3s;
-    }
+.site-nav a {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
 
-        .site-nav a:hover {
-            background-color: #eaeaea;
-        }
+.site-nav a:hover {
+    background-color: #eaeaea;
+}
 
+/* Styles for the main content area */
 .content-area {
     display: flex;
     flex-direction: column;
-    height: calc(100vh - 40px);
+    height: calc(100vh - 40px); /* Calculate height excluding header and footer */
 }
 
+/* Styles for the welcome section */
 .welcome-section {
     position: absolute;
     top: 50%;
@@ -68,18 +73,21 @@ body, html {
     animation: fadeIn 1s ease-out forwards;
 }
 
+/* Keyframe animation for fading in the welcome section */
 @keyframes fadeIn {
     to {
         opacity: 1;
     }
 }
 
+/* Styles for headings, paragraphs, and buttons in the welcome section */
 .welcome-section h1,
 .welcome-section p,
 .welcome-section .register-btn {
     margin: 10px 0;
 }
 
+/* Styles for the registration button */
 .register-btn {
     background-color: #28a745;
     color: #ffffff;
@@ -88,10 +96,11 @@ body, html {
     border-radius: 5px;
 }
 
-    .register-btn:hover {
-        background-color: #216938;
-    }
+.register-btn:hover {
+    background-color: #216938;
+}
 
+/* Styles for the site footer */
 .site-footer {
     background-color: #006747;
     color: #ffffff;
@@ -103,16 +112,18 @@ body, html {
     left: 0;
 }
 
+/* Styles for the footer content */
 .footer-content {
     margin: auto;
     padding: 0 20px;
 }
 
+/* Styles for links in the footer */
 .footer-link {
     color: #ffffff;
     text-decoration: underline;
 }
 
-    .footer-link:hover {
-        color: #28a745;
-    }
+.footer-link:hover {
+    color: #28a745;
+}
