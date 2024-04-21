@@ -1,0 +1,84 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    color: #006747;
+    background-image: url('https://img.freepik.com/free-photo/doctor-holding-coronavirus-vaccine-recipient-with-copy-space_23-2148755587.jpg?t=st=1713722205~exp=1713725805~hmac=7f8998bedcd0bfccdc5dd3e1649dae8a2678d56d37840671cb9ad773ddefda70&w=1380'); /* Update with the correct path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+}
+
+
+h1, p {
+    text-align: center;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 30vh; 
+    margin-top: 10vh; 
+}
+
+table {
+    margin-left: 60px;
+    margin-right: 30px;
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background-color: #006747;
+    color: #FFFFFF;
+    padding: 15px;
+}
+
+td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #CFC493;
+    background-color: #FFFFFF;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.button-container {
+    margin-top: 60px;
+    text-align: center;
+}
+
+button {
+    background-color: #CFC493;
+    color: #006747;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #b3a179;
+}
+
+footer {
+    background-color: #006747;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Ensures that the footer does not overlap the content */
+body {
+    margin-bottom: 50px; /* Adjust this value based on the footer height */
+}
