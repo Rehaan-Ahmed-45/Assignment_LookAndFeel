@@ -120,3 +120,36 @@ footer a img {
     max-width: 100%;
     height: auto;
 }
+
+.team-commits {
+    background-color: #f9f9f9; /* Light background for the section */
+    padding: 20px;
+    text-align: center;
+}
+
+.team-commits h2 {
+    margin-bottom: 20px;
+    color: #333; /* Dark color for the heading */
+}
+
+.commit-images img {
+    width: 100%; /* Full width of the container, adjust as necessary */
+    max-width: 200px; /* Maximum width of each image, adjust as necessary */
+    margin: 10px;
+    border: 1px solid #ddd; /* Optional: adds a border around each image */
+    padding: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2); /* Optional: adds shadow to images */
+}
+
+/* Responsive layout for the commit images */
+@media (min-width: 600px) {
+    .commit-images {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .commit-images img {
+        margin: 10px;
+    }
+}
