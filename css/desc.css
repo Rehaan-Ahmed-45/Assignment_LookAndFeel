@@ -4,12 +4,14 @@ body {
     padding: 0;
     background-color: #FFFFFF;
     color: #006747;
-    background-image: url('https://img.freepik.com/free-photo/doctor-holding-coronavirus-vaccine-recipient-with-copy-space_23-2148755587.jpg?t=st=1713722205~exp=1713725805~hmac=7f8998bedcd0bfccdc5dd3e1649dae8a2678d56d37840671cb9ad773ddefda70&w=1380'); /* Update with the correct path */
+    background-image: url('https://img.freepik.com/free-photo/coronavirus-vaccine-treatment-background-with-blank-space_53876-102663.jpg?t=st=1713726907~exp=1713730507~hmac=7b46bada222350bfd48acaa424b4dbb1e1fa2687fd478e1c4978e69e4c143d5d&w=900');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: right;
+    position: relative;
 }
+
 
 
 h1, p {
