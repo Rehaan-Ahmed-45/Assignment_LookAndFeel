@@ -1,12 +1,160 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Sandeep\\source\\repos\\Assignment_LookAndFeel\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sandeep\\source\\repos\\Assignment_LookAndFeel\\css\\firstpage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:css\\firstpage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sandeep\\source\\repos\\Assignment_LookAndFeel\\css\\1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:css\\1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sandeep\\source\\repos\\Assignment_LookAndFeel\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sandeep\\source\\repos\\Assignment_LookAndFeel\\css\\desc.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:css\\desc.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sandeep\\source\\repos\\Assignment_LookAndFeel\\Registration.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Registration.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sandeep\\source\\repos\\Assignment_LookAndFeel\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sandeep\\source\\repos\\Assignment_LookAndFeel\\Description.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Description.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sandeep\\source\\repos\\Assignment_LookAndFeel\\About.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:About.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "1.css",
+              "DocumentMoniker": "C:\\Users\\Sandeep\\source\\repos\\Assignment_LookAndFeel\\css\\1.css",
+              "RelativeDocumentMoniker": "css\\1.css",
+              "ToolTip": "C:\\Users\\Sandeep\\source\\repos\\Assignment_LookAndFeel\\css\\1.css",
+              "RelativeToolTip": "css\\1.css",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAAAHIAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-21T23:24:07.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\Sandeep\\source\\repos\\Assignment_LookAndFeel\\css\\styles.css",
+              "RelativeDocumentMoniker": "css\\styles.css",
+              "ToolTip": "C:\\Users\\Sandeep\\source\\repos\\Assignment_LookAndFeel\\css\\styles.css",
+              "RelativeToolTip": "css\\styles.css",
+              "ViewState": "AQIAADIAAAAAAAAAAAAuwE4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-21T23:23:32.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "firstpage.css",
+              "DocumentMoniker": "C:\\Users\\Sandeep\\source\\repos\\Assignment_LookAndFeel\\css\\firstpage.css",
+              "RelativeDocumentMoniker": "css\\firstpage.css",
+              "ToolTip": "C:\\Users\\Sandeep\\source\\repos\\Assignment_LookAndFeel\\css\\firstpage.css",
+              "RelativeToolTip": "css\\firstpage.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-21T23:22:51.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "desc.css",
+              "DocumentMoniker": "C:\\Users\\Sandeep\\source\\repos\\Assignment_LookAndFeel\\css\\desc.css",
+              "RelativeDocumentMoniker": "css\\desc.css",
+              "ToolTip": "C:\\Users\\Sandeep\\source\\repos\\Assignment_LookAndFeel\\css\\desc.css",
+              "RelativeToolTip": "css\\desc.css",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAAAHEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-21T23:22:10.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "About.html",
+              "DocumentMoniker": "C:\\Users\\Sandeep\\source\\repos\\Assignment_LookAndFeel\\About.html",
+              "RelativeDocumentMoniker": "About.html",
+              "ToolTip": "C:\\Users\\Sandeep\\source\\repos\\Assignment_LookAndFeel\\About.html",
+              "RelativeToolTip": "About.html",
+              "ViewState": "AQIAADQAAAAAAAAAAAAAAFEAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-04-21T23:16:04.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Registration.html",
+              "DocumentMoniker": "C:\\Users\\Sandeep\\source\\repos\\Assignment_LookAndFeel\\Registration.html",
+              "RelativeDocumentMoniker": "Registration.html",
+              "ToolTip": "C:\\Users\\Sandeep\\source\\repos\\Assignment_LookAndFeel\\Registration.html",
+              "RelativeToolTip": "Registration.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-04-21T23:15:13.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Sandeep\\source\\repos\\Assignment_LookAndFeel\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "C:\\Users\\Sandeep\\source\\repos\\Assignment_LookAndFeel\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AQIAABgAAAAAAAAAAAAuwDMAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-04-21T23:15:10.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Description.html",
+              "DocumentMoniker": "C:\\Users\\Sandeep\\source\\repos\\Assignment_LookAndFeel\\Description.html",
+              "RelativeDocumentMoniker": "Description.html",
+              "ToolTip": "C:\\Users\\Sandeep\\source\\repos\\Assignment_LookAndFeel\\Description.html",
+              "RelativeToolTip": "Description.html",
+              "ViewState": "AQIAADoAAAAAAAAAAAAuwEkAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-04-21T23:15:01.736Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
