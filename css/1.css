@@ -1,155 +1,122 @@
+/* Basic styles for the body: sets font, background, text color, and removes default margin and padding */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #FFFFFF;
-    color: #006747;
-    margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif; /* Ensures a clean, widely supported font is used */
+    background-color: #FFFFFF; /* Sets a white background for the page */
+    color: #006747; /* Sets a dark green color for the text, ensures good contrast */
+    margin: 0; /* Removes the default margin around the body */
+    padding: 0; /* Removes the default padding around the body */
 }
 
+/* Styles for the header, using flexbox for layout */
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; /* This spreads out the logo and the title */
-    padding: 20px;
-    background-color: #CFC493;
+    display: flex; /* Enables flexbox layout */
+    align-items: center; /* Vertically centers the items in the header */
+    justify-content: space-between; /* Distributes space between items */
+    padding: 20px; /* Adds padding around the content */
+    background-color: #CFC493; /* Light brown background color */
 }
 
+/* Styling for the logo in the header */
 .logo {
-    height: 60px; /* Adjust height as needed */
-    margin-right: 20px; /* Adds some space between the logo and the title */
+    height: 60px; /* Sets the logo height */
+    margin-right: 20px; /* Adds space to the right of the logo */
 }
 
+/* Styling for the content area within the header */
 .header-content {
-    flex-grow: 1; /* This will make the title and paragraph take up the remaining space */
-    text-align: center;
+    flex-grow: 1; /* Allows the content area to take up any extra space */
+    text-align: center; /* Centers the text within the header content area */
 }
 
-/* Clear any default margins from the h1 and p tags */
+/* Reset default margins for headers and paragraphs in the header to maintain consistent spacing */
 header h1, header p {
     margin: 0;
 }
 
-
-header::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/* Clear float style */
-header::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-
+/* Flexbox setup for the team section */
 .team {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 20px;
+    display: flex; /* Enables flexbox layout */
+    justify-content: space-around; /* Distributes space around each team member */
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    padding: 20px; /* Adds padding inside the team section */
 }
 
+/* Styling for each team member's card */
 .member {
-    background-color: #CFC493;
-    border: 2px solid #006747;
-    padding: 10px;
-    margin: 10px;
-    width: 220px;
-    text-align: center;
+    background-color: #CFC493; /* Background color matches the header */
+    border: 2px solid #006747; /* Dark green border */
+    padding: 10px; /* Padding inside each member card */
+    margin: 10px; /* Margin around each card */
+    width: 220px; /* Fixed width for each card */
+    text-align: center; /* Centers the content within the card */
 }
 
+/* Styling for images of team members */
 .member img {
-    width: 80%;
-    height: auto;
-    border-radius: 25%;
+    width: 80%; /* Images take up 80% of the card width */
+    height: auto; /* Maintains aspect ratio of images */
+    border-radius: 50%; /* Makes images circular */
 }
 
+/* Footer styling, fixed at the bottom */
 footer {
-    background-color: #006747;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    background-color: #006747; /* Dark green background */
+    color: #FFFFFF; /* White text color for contrast */
+    text-align: center; /* Centers footer content */
+    padding: 10px; /* Padding inside the footer */
+    position: fixed; /* Keeps the footer at the bottom */
+    width: 100%; /* Footer spans the width of the page */
+    bottom: 0; /* Anchors the footer at the bottom */
+    line-height: 32px; /* Aligns text with icons vertically */
 }
 
+/* Additional styling for footer links and icons */
 footer a img {
-    width: 32px;
-    height: auto;
+    width: 32px; /* Sets a specific width for footer icons */
+    height: auto; /* Keeps the aspect ratio of icons */
+    vertical-align: middle; /* Centers icons vertically with adjacent text */
 }
 
+/* Link styling for better accessibility and interactivity */
 a {
-    color: #006747;
-    text-decoration: none;
+    color: #006747; /* Ensures links use the primary text color */
+    text-decoration: none; /* Removes underline from links */
 }
 
+/* Adds underline on hover for better user interaction feedback */
 a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Adds underline on hover */
 }
 
-footer {
-    /* Other styles remain the same */
-    line-height: 32px; /* Aligns text with the GitHub icon vertically */
+/* Styles for sections with models and commits */
+.data-model, .team-commits {
+    text-align: center; /* Centers text in these sections */
+    padding: 20px; /* Adds padding */
+    background-color: #f4f4f4; /* Light gray background for distinction */
+    margin: 20px 0; /* Adds vertical spacing */
 }
 
-.footer-desc {
-    display: inline-block;
-    margin-right: 10px;
-    color: #FFFFFF; /* Text color */
+/* Styling for headings in data model and commit sections */
+.data-model h2, .team-commits h2 {
+    margin-bottom: 15px; /* Spacing below the heading */
+    color: #333; /* Darker text for emphasis */
 }
 
-/* Update this to ensure the GitHub icon aligns with the text */
-footer a img {
-    vertical-align: middle; /* Aligns the icon with the text */
-}
-
-.data-model {
-    text-align: center;
-    padding: 20px;
-    background-color: #f4f4f4; /* Light gray background, you can choose your color */
-    margin: 20px 0;
-}
-
-.data-model h2 {
-    margin-bottom: 15px;
-}
-
-.data-model img {
-    max-width: 100%;
-    height: auto;
-}
-
-.team-commits {
-    background-color: #f9f9f9; /* Light background for the section */
-    padding: 20px;
-    text-align: center;
-}
-
-.team-commits h2 {
-    margin-bottom: 20px;
-    color: #333; /* Dark color for the heading */
-}
-
+/* Commit image styles for consistent sizing and aesthetics */
 .commit-images img {
-    width: 100%; /* Full width of the container, adjust as necessary */
-    max-width: 200px; /* Maximum width of each image, adjust as necessary */
-    margin: 10px;
-    border: 1px solid #ddd; /* Optional: adds a border around each image */
-    padding: 5px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.2); /* Optional: adds shadow to images */
+    width: 100%; /* Full container width, adjusted by max-width */
+    max-width: 200px; /* Maximum width to maintain aesthetics */
+    margin: 10px; /* Spacing around images */
+    border: 1px solid #ddd; /* Subtle border for visual separation */
+    padding: 5px; /* Padding around images */
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2); /* Adds subtle shadow for depth */
 }
 
-/* Responsive layout for the commit images */
+/* Media query for larger screens to enhance layout of commit images */
 @media (min-width: 600px) {
     .commit-images {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    .commit-images img {
-        margin: 10px;
+        display: flex; /* Enables flexbox layout */
+        justify-content: center; /* Centers images within the container */
+        flex-wrap: wrap; /* Allows images to wrap as needed */
     }
 }
