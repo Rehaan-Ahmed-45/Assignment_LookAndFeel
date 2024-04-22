@@ -45,13 +45,10 @@ function validateForm() {
 function displaySuccessMessage(firstName, lastName, email, phone, address, brand, time) {
     var result = document.getElementById('result');
     result.style.display = 'block';
-    result.innerHTML = `Registration successful!<br>
-                        Name: ${firstName} ${lastName}<br>
-                        Email: ${email}<br>
-                        Phone: ${phone}<br>
-                        Address: ${address}<br>
-                        Vaccine Brand: ${brand}<br>
-                        Time Slot: ${time}.`;
+    result.innerHTML = `Registration successful for<br>
+                        ${firstName} ${lastName}<br>
+                         ${brand} vaccine appointment at<br>
+                         ${time}.`;
 }
 
 // Checks the validity of the current input and enables or disables the next input field based on validity
