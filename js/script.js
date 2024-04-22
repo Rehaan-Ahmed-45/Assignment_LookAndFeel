@@ -1,20 +1,20 @@
 // Validates a single input field and manages the display of error messages and field enabling
 function validateInput(currentInput, nextFieldId) {
-    const errorMessageId = currentInput.id + '-error'; // Generate ID for error message span based on current input field ID
-    const errorMessageSpan = document.getElementById(errorMessageId); // Get the span element for displaying error messages
+    const errorMessageId = currentInput.id + '-error'; 
+    const errorMessageSpan = document.getElementById(errorMessageId); 
 
-    if (currentInput.checkValidity()) { // If current input is valid
-        document.getElementById(nextFieldId).disabled = false; // Enable the next input field
-        errorMessageSpan.style.display = 'none'; // Hide the error message
-    } else { // If current input is invalid
-        document.getElementById(nextFieldId).disabled = true; // Disable the next input field
-        if (currentInput.value.length > 0) { // If there is some text in the input
-            errorMessageSpan.textContent = currentInput.title; // Display a custom error message from the input's title attribute
-            errorMessageSpan.style.display = 'block'; // Show the error message
+    if (currentInput.checkValidity()) { 
+        document.getElementById(nextFieldId).disabled = false;
+        errorMessageSpan.style.display = 'none'; 
+    } else { 
+        document.getElementById(nextFieldId).disabled = true;
+        if (currentInput.value.length > 0) {
+            errorMessageSpan.textContent = currentInput.title;
+            errorMessageSpan.style.display = 'block';
         } else {
-            errorMessageSpan.style.display = 'none'; // Hide the error message if the input is empty
+            errorMessageSpan.style.display = 'none';
         }
-        currentInput.focus(); // Set focus back to the invalid input field
+        currentInput.focus(); 
     }
 }
 
@@ -29,7 +29,6 @@ function validateForm() {
     var time = document.getElementById('timeSlot');
     var registerButton = document.getElementById('registerButton');
 
-    // Sequentially check each required input for validity
     if (!firstName.checkValidity()) { firstName.focus(); alert(firstName.title); return; }
     if (!lastName.checkValidity()) { lastName.focus(); alert(lastName.title); return; }
     if (!email.checkValidity()) { email.focus(); alert(email.title); return; }
@@ -38,7 +37,7 @@ function validateForm() {
     if (!brand.checkValidity()) { brand.focus(); alert(brand.title); return; }
     if (!time.checkValidity()) { time.focus(); alert(time.title); return; }
 
-    registerButton.disabled = false; // Enable the registration button if all inputs are valid
+    registerButton.disabled = false;
     displaySuccessMessage(firstName.value, lastName.value, email.value, phone.value, address.value, brand.value, time.value);
 }
 
@@ -57,8 +56,30 @@ function displaySuccessMessage(firstName, lastName, email, phone, address, brand
 
 // Checks the validity of the current input and enables or disables the next input field based on validity
 function softValidate(currentInput) {
-    var nextFieldId = currentInput.getAttribute('data-next'); // Get the ID of the next input field
+    var nextFieldId = currentInput.getAttribute('data-next');
     if (nextFieldId) {
-        document.getElementById(nextFieldId).disabled = !currentInput.checkValidity(); // Disable or enable the next field based on validity of current input
+        document.getElementById(nextFieldId).disabled = !currentInput.checkValidity();
     }
 }
+
+// Cancels the registration and resets the form
+function cancelRegistration() {
+    if (confirm("Are you sure you want to cancel your registration?")) {
+        document.getElementById('registrationForm').reset();
+        alert("Registration canceled.");
+    }
+}
+
+
+function deleteRegistration() {
+    if (confirm("Are you sure you want to delete your registration?")) {
+        // Logic to delete registration
+        alert("Registration deleted.");
+
+        // Clear the result section
+        var result = document.getElementById('result');
+        result.style.display = 'none'; // Hides the result div
+        result.innerHTML = ''; // Optionally clear any inner HTML if needed
+    }
+}
+

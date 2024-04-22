@@ -38,7 +38,11 @@
         <label for="timeSlot">Time Slot:</label>
         <input type="time" id="timeSlot" name="timeSlot" required onblur="validateInput(this, 'registerButton')"> <!-- Input for selecting time slot -->
 
-        <button type="button" id="registerButton" onclick="validateForm()">Register</button> <!-- Button to submit the form, triggers form validation -->
+        <div class="button-group">
+            <button type="button" id="registerButton" onclick="validateForm()">Register</button>
+            <button type="button" id="cancelButton" onclick="cancelRegistration()">Cancel</button>
+            <button type="button" id="deleteButton" onclick="deleteRegistration()">Delete</button>
+        </div>
     </form>
 
     <div id="result"></div> <!-- Placeholder for displaying result or messages post form submission -->

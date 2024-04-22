@@ -59,6 +59,24 @@ button:hover {
     background-color: #004f35;
 }
 
+#cancelButton {
+    background-color: #ffcc00;
+    color: black;
+}
+
+#cancelButton:hover {
+    background-color: #e6b800;
+}
+
+#deleteButton {
+    background-color: #ff3333;
+    color: white;
+}
+
+#deleteButton:hover {
+    background-color: #cc2900;
+}
+
 #result {
     margin-top: 20px;
     padding: 20px;
