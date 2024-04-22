@@ -68,3 +68,43 @@ button:hover {
     border-radius: 4px;
     display: none;
 }
+
+@media (min-width: 768px) {
+    body {
+        margin: 40px auto;
+        max-width: 720px;
+    }
+
+    #usfLogo {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+    }
+
+    form {
+        padding: 40px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        max-width: 960px;
+    }
+
+    form {
+        padding: 50px;
+        margin: auto;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    input, select, button {
+        font-size: 16px;
+    }
+}
