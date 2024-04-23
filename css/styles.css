@@ -74,9 +74,17 @@ button:hover {
 }
 
 #deleteButton:hover {
-    background-color: #cc2900;
+    background-color: #ff3333;
 }
 
+#editButton {
+    background-color: #8533ff;
+    color: white;
+}
+
+#editButton:hover {
+    background-color: #8533ff;
+}
 #result {
     margin-top: 20px;
     padding: 20px;
