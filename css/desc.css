@@ -4,7 +4,7 @@ body {
     padding: 0;
     background-color: #f0f4f8;
     color: #006747;
-    margin-bottom: 50px; /* Moved from the bottom of your styles for clarity */
+    margin-bottom: 50px;
 }
 
 .link-no-style {
@@ -25,6 +25,14 @@ body {
     height: auto;
 }
 
+.top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 180px;
+    height: auto;
+}
+
 h1, p {
     text-align: center;
 }
@@ -33,14 +41,13 @@ h1, p {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30vh;
     margin-top: 10vh;
 }
 
 table {
     width: 90%;
     border-collapse: collapse;
-    margin: 20px auto; /* Center table and simplify margins */
+    margin: 20px auto;
 }
 
 th {
@@ -61,25 +68,19 @@ tr:nth-child(even) {
 }
 
 .button-container {
-    padding: 10px 20px;
-    margin-top: 30px;
-    text-transform: uppercase;
     text-align: center;
+    margin-top: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    text-transform: uppercase;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 button:hover {
     background-color: #b3a179;
-}
-
-.bottom-right {
-    position: absolute;
-    bottom: 0;
-    left: 25px; /* Corrected the value by adding 'px' */
-    right: 10;
-    width: 250px;
-    height: auto;
 }
 
 footer {
@@ -92,36 +93,66 @@ footer {
     width: 100%;
 }
 
-/* Responsive Design Adjustments */
-@media (max-width: 768px) { /* Targets tablets and mobile devices */
-    .top-left, .bottom-right {
-        width: 100px; /* Smaller logos for smaller screens */
+.chart-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 0;
+    align-items: flex-start;
+}
+
+.canvas-bar-line {
+    flex: 1 1 45%;
+    max-width: 60%;
+}
+
+.canvas-pie {
+    flex: 0 0 auto; /* Do not grow or shrink */
+    width: 40%; /* Set the width you want for the pie chart */
+    margin: 20px auto; /* Adjust the margin as needed */
+    padding: 0; /* Make sure padding is not adding extra space */
+}
+
+
+@media (max-width: 768px) {
+    .top-left, .top-right {
+        width: 100px;
     }
 
     .table-container {
         margin-top: 5vh;
-        height: auto;
     }
 
     table, th, td {
-        padding: 10px; /* Smaller padding for smaller screens */
+        padding: 10px;
     }
 
     .button-container {
-        padding: 5px 10px; /* Smaller padding for smaller buttons */
+        padding: 5px 10px;
     }
 
     h1 {
-        font-size: 20px; /* Smaller font size for smaller screens */
-    }
-}
-
-@media (max-width: 480px) { /* Targets mobile devices */
-    h1, p {
-        font-size: 16px; /* Even smaller font size for very small screens */
+        font-size: 20px;
     }
 
-    .top-left, .bottom-right {
-        display: none; /* Optionally hide logos on very small screens */
+    .chart-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .canvas-bar-line, .canvas-pie {
+        width: 100%;
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+    
+    @media (max-width: 480px) {
+        h1, p {
+            font-size: 16px;
+        }
+        
+        .top-left, .top-right {
+            display: none;
+        }
     }
 }

@@ -4,36 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Choose Your Vaccine</title>
-    <link rel="stylesheet" href="css/desc.css"> <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="css/desc.css"> <!-- Make sure this is correctly linked -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/charts.js" defer></script> <!-- Ensure this points to your JavaScript file -->
 </head>
 <body>
     <!-- Top Left Image linked to home page -->
     <a href="index.html" class="home-link">
-        <img src="https://i.pinimg.com/564x/db/c2/41/dbc241cd06bd3831cb6709bcf8860d40.jpg" alt="Top Left Image" class="top-left">
+        <img src="https://i.pinimg.com/564x/db/c2/41/dbc241cd06bd3831cb6709bcf8860d40.jpg" alt="Home Icon" class="top-left">
     </a>
 
-    <h1>Compare Vaccines</h1> <!-- Main heading -->
-    <p>Review the information below to help you choose the best vaccine option for you:</p> <!-- Introduction paragraph -->
+    <!-- Top Right Image moved from bottom right -->
+    <img src="img/vaccine.jpg" alt="Vaccine Image" class="top-right">
+
+    <h1>Compare Vaccines</h1>
+    <p>Review the information below to help you choose the best vaccine option for you:</p>
 
     <div class="table-container">
-        <!-- Container for the comparison table -->
-        <table>
+        <table id="vaccineTable">
             <thead>
                 <tr>
-                    <!-- Table headings -->
                     <th>Vaccine Name</th>
-                    <th>Price(in $)</th>
+                    <th>Price (in $)</th>
                     <th>Number of People Used</th>
                     <th>Availability</th>
                     <th>Potential Side Effects</th>
-                    <th>Effectiveness(in months)</th>
+                    <th>Effectiveness (in months)</th>
                 </tr>
             </thead>
             <tbody>
-                <!-- Table rows -->
                 <tr>
-                    <!-- Vaccine Pfizer -->
-                    <td><a href="https://www.pfizer.com/products/product-detail/pfizer-biontech-covid-19-vaccine" class="link-no-style">Pfizer</a></td>
+                    <td>Pfizer</td>
                     <td>20</td>
                     <td>200</td>
                     <td>Monday, Wednesday</td>
@@ -41,8 +42,7 @@
                     <td>6</td>
                 </tr>
                 <tr>
-                    <!-- Vaccine Moderna -->
-                    <td><a href="https://www.modernatx.com/en-US/about-us/our-story" class="link-no-style">Moderna</a></td>
+                    <td>Moderna</td>
                     <td>25</td>
                     <td>150</td>
                     <td>Tuesday, Thursday</td>
@@ -50,10 +50,9 @@
                     <td>8</td>
                 </tr>
                 <tr>
-                    <!-- Vaccine AstraZeneca -->
-                    <td><a href="https://www.precisionvaccinations.com/vaccines/vaxzevria-covid-19-vaccine" class="link-no-style">AstraZeneca</a></td>
+                    <td>AstraZeneca</td>
                     <td>15</td>
-                    <td>100m</td>
+                    <td>100</td>
                     <td>Saturday</td>
                     <td>Nausea, muscle pain</td>
                     <td>12</td>
@@ -62,13 +61,27 @@
         </table>
     </div>
 
+    <div class="chart-container">
+        <!-- Bar chart for vaccine price comparison -->
+        <canvas id="priceChart" class="canvas-bar-line"></canvas>
+        <!-- Line chart for vaccine effectiveness over time -->
+        <canvas id="effectivenessChart" class="canvas-bar-line"></canvas>
+    </div>
+    <div class="chart-container">
+    <!-- Bar chart for vaccine price comparison -->
+    <canvas id="priceChart" class="canvas-bar"></canvas>
+    <!-- Line chart for vaccine effectiveness over time -->
+    <canvas id="effectivenessChart" class="canvas-line"></canvas>
+</div>
+
+<!-- Pie chart for vaccine usage among people -->
+<div class="chart-container">
+    <canvas id="usageChart" class="canvas-pie"></canvas>
+</div>
+
+
     <div class="button-container">
-        <!-- Container for the button -->
-        <!-- Button to proceed to registration -->
         <button onclick="location.href='registration.html'">Proceed to Registration</button>
     </div>
-
-    <img src="img/vaccine.jpg" alt="Bottom Right Image" class="bottom-right"> <!-- Bottom Right Image -->
-
 </body>
 </html>
